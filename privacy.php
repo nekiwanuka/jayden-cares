@@ -1,0 +1,9 @@
+<?php
+$currentPage = '';
+$pageTitle = 'Privacy Notice';
+$pageDescription = 'Privacy notice for Jayden Care website enquiries.';
+require __DIR__ . '/includes/header.php';
+?>
+<section class="page-hero"><div class="container narrow"><span class="eyebrow">Privacy Notice</span><h1>How website enquiry information is handled.</h1><p>This website is intentionally simple and does not use a database to store contact, quotation or volunteer form submissions.</p></div></section>
+<section class="section"><div class="container narrow legal-copy"><h2>Information submitted through forms</h2><p>When you use a website form, the details you enter are sent by email to Jayden Nursing and Bedside Homecare Services Limited so the team can respond to your enquiry, care request or volunteer interest.</p><h2>What the website does not request</h2><p>Please do not submit medical reports, identification documents or highly sensitive medical information through the public website forms. If further information is necessary, Jayden can advise you after direct contact.</p><h2>Cookies and local storage</h2><p>The website uses an essential, short-lived PHP session cookie to protect forms against misuse. Your cookie-banner choice is saved in your browser's local storage so the banner does not repeatedly appear. The current website does not use advertising or analytics cookies.</p><h2>Form protection</h2><p>The website uses basic anti-spam and security controls including a session-based CSRF token, a hidden honeypot field, input validation and a short submission rate limit. No visitor account is required.</p><h2>Contact</h2><p>Questions about information submitted through the website can be directed to <a class="text-link" href="mailto:<?= e(SITE_EMAIL) ?>"><?= e(SITE_EMAIL) ?></a> or <a class="text-link" href="tel:<?= e(SITE_PHONE_E164) ?>"><?= e(SITE_PHONE_DISPLAY) ?></a>.</p></div></section>
+<?php require __DIR__ . '/includes/footer.php'; ?>
