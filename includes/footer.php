@@ -10,9 +10,9 @@
             <img class="footer-logo" src="assets/images/jayden-logo.webp?v=<?= e($assetVersion) ?>" alt="Jayden Care" loading="lazy" decoding="async">
             <p>Compassionate Care. Professional Support. Right Where You Need It.</p>
             <div class="social-links" aria-label="Jayden social media links">
-                <a href="<?= e(SITE_TIKTOK) ?>" target="_blank" rel="noopener">TT <span>TikTok</span></a>
-                <a href="<?= e(SITE_FACEBOOK) ?>" target="_blank" rel="noopener">FB <span>Facebook</span></a>
-                <a href="<?= e(SITE_INSTAGRAM) ?>" target="_blank" rel="noopener">IG <span><?= e(SITE_INSTAGRAM_HANDLE) ?></span></a>
+                <a href="<?= e(SITE_TIKTOK) ?>" target="_blank" rel="noopener" aria-label="Jayden Care on TikTok" title="TikTok"><i data-lucide="music-2" aria-hidden="true">TikTok</i></a>
+                <a href="<?= e(SITE_FACEBOOK) ?>" target="_blank" rel="noopener" aria-label="Jayden Care on Facebook" title="Facebook"><i data-lucide="facebook" aria-hidden="true">Facebook</i></a>
+                <a href="<?= e(SITE_INSTAGRAM) ?>" target="_blank" rel="noopener" aria-label="Jayden Care on Instagram" title="Instagram"><i data-lucide="instagram" aria-hidden="true">Instagram</i></a>
             </div>
         </div>
         <div>

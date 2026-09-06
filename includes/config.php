@@ -11,7 +11,7 @@ if (PHP_SAPI !== 'cli-server') {
 
 define('SITE_NAME', 'Jayden Nursing and Bedside Homecare Services Limited');
 define('SITE_DOMAIN', 'jaydencares.com');
-define('ASSET_VERSION', '20260902.4');
+define('ASSET_VERSION', '20260906.3');
 define('SITE_PHONE_DISPLAY', '+256 768 719 022');
 define('SITE_PHONE_E164', '+256768719022');
 define('SITE_PHONE_SECONDARY_DISPLAY', '+256 708 177 763');

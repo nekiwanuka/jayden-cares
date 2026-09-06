@@ -93,18 +93,22 @@ $structuredData = [
             <span></span><span></span><span></span>
         </button>
         <nav class="main-nav" id="mainNav" aria-label="Main navigation">
-            <a href="index.php"<?= is_active('home', $currentPage) ?>>Home</a>
-            <a href="about.php"<?= is_active('about', $currentPage) ?>>About</a>
-            <a href="services.php"<?= is_active('services', $currentPage) ?>>Services</a>
-            <a href="care-pricing.php"<?= is_active('care', $currentPage) ?>>Care &amp; Pricing</a>
-            <a href="volunteer.php"<?= is_active('volunteer', $currentPage) ?>>Volunteer</a>
-            <a href="faq.php"<?= is_active('faq', $currentPage) ?>>FAQs</a>
-            <a href="contact.php"<?= is_active('contact', $currentPage) ?>>Contact</a>
-            <a class="btn btn-small" href="care-pricing.php#request-quote">Request Care</a>
-            <div class="header-socials" aria-label="Jayden social media">
-                <a href="<?= e(SITE_FACEBOOK) ?>" target="_blank" rel="noopener" aria-label="Jayden Care on Facebook" title="Facebook"><i data-lucide="facebook" aria-hidden="true">F</i></a>
-                <a href="<?= e(SITE_INSTAGRAM) ?>" target="_blank" rel="noopener" aria-label="Jayden Care on Instagram" title="Instagram"><i data-lucide="instagram" aria-hidden="true">I</i></a>
-                <a href="<?= e(SITE_TIKTOK) ?>" target="_blank" rel="noopener" aria-label="Jayden Care on TikTok" title="TikTok"><i data-lucide="music-2" aria-hidden="true">T</i></a>
+            <div class="nav-menu-links">
+                <a href="index.php"<?= is_active('home', $currentPage) ?>>Home</a>
+                <a href="about.php"<?= is_active('about', $currentPage) ?>>About</a>
+                <a href="services.php"<?= is_active('services', $currentPage) ?>>Services</a>
+                <a href="care-pricing.php"<?= is_active('care', $currentPage) ?>>Care &amp; Pricing</a>
+                <a href="volunteer.php"<?= is_active('volunteer', $currentPage) ?>>Volunteer</a>
+                <a href="faq.php"<?= is_active('faq', $currentPage) ?>>FAQs</a>
+                <a href="contact.php"<?= is_active('contact', $currentPage) ?>>Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a class="btn btn-small" href="care-pricing.php#request-quote">Request Care</a>
+                <div class="header-socials" aria-label="Jayden social media">
+                    <a href="<?= e(SITE_FACEBOOK) ?>" target="_blank" rel="noopener" aria-label="Jayden Care on Facebook" title="Facebook"><i data-lucide="facebook" aria-hidden="true">F</i></a>
+                    <a href="<?= e(SITE_INSTAGRAM) ?>" target="_blank" rel="noopener" aria-label="Jayden Care on Instagram" title="Instagram"><i data-lucide="instagram" aria-hidden="true">I</i></a>
+                    <a href="<?= e(SITE_TIKTOK) ?>" target="_blank" rel="noopener" aria-label="Jayden Care on TikTok" title="TikTok"><i data-lucide="music-2" aria-hidden="true">T</i></a>
+                </div>
             </div>
         </nav>
     </div>
