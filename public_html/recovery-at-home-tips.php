@@ -1,0 +1,10 @@
+<?php
+$currentPage = 'tips';
+$pageTitle = 'Recovery at Home Tips';
+$pageDescription = 'Practical reminders for safer recovery, rest and follow-up care at home.';
+require __DIR__ . '/includes/header.php';
+?>
+<section class="page-hero"><div class="container narrow"><span class="eyebrow">Healthy Tips</span><h1>Build a calm routine for recovery.</h1><p>Recovery often needs patience, observation and steady support. A simple plan can help the client and family know what to expect each day.</p></div></section>
+<section class="section"><div class="container tips-article"><img class="tips-article-image" src="assets/images/recovery-care.webp?v=<?= e($assetVersion) ?>" alt="Caregiver supporting recovery at home" loading="eager" decoding="async"><div class="tips-article-copy"><h2>Support recovery one day at a time</h2><ul class="clean-list"><li>Follow the discharge instructions and keep appointments, prescriptions and contact numbers organised.</li><li>Allow regular rest while encouraging safe, gradual activity when approved by the care team.</li><li>Observe changes in pain, wound appearance, temperature, breathing, alertness or mobility.</li><li>Keep the recovery area clean, comfortable and easy to move around.</li><li>Write down questions and changes so they can be discussed clearly at follow-up.</li><li>Ask for help with bathing, meals, transfers or medication routines when the family is stretched.</li></ul><div class="tips-warning"><strong>Know when to escalate</strong><p>Follow the person's discharge advice and contact the treating team urgently for severe or worsening symptoms, heavy bleeding, breathing difficulty, chest pain or sudden confusion.</p></div></div></div></section>
+<section class="section section-soft"><div class="container final-cta-box"><div><span class="eyebrow">Support after discharge</span><h2>Jayden can help families manage recovery routines.</h2></div><a class="btn" href="care-pricing.php#request-quote">Request a Quotation</a></div></section>
+<?php require __DIR__ . '/includes/footer.php'; ?>

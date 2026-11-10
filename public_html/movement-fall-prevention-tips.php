@@ -1,0 +1,10 @@
+<?php
+$currentPage = 'tips';
+$pageTitle = 'Movement and Fall Prevention Tips';
+$pageDescription = 'Simple movement and fall prevention reminders for safer routines at home.';
+require __DIR__ . '/includes/header.php';
+?>
+<section class="page-hero"><div class="container narrow"><span class="eyebrow">Healthy Tips</span><h1>Make everyday movement safer.</h1><p>Safe movement supports independence. A calm environment, appropriate assistance and good communication can reduce avoidable risks at home.</p></div></section>
+<section class="section"><div class="container tips-article"><img class="tips-article-image" src="assets/images/rehabilitation.webp?v=<?= e($assetVersion) ?>" alt="Rehabilitation support and guided movement" loading="eager" decoding="async"><div class="tips-article-copy"><h2>Practical ways to reduce fall risks</h2><ul class="clean-list"><li>Keep walkways, stairs and frequently used areas clear of clutter, loose mats and trailing cables.</li><li>Improve lighting near beds, bathrooms, steps and entrances, especially at night.</li><li>Encourage suitable footwear and use walking aids only as recommended and fitted appropriately.</li><li>Move slowly when standing up and allow time to regain balance before walking.</li><li>Keep frequently used items within safe reach instead of using chairs or unstable stools.</li><li>Ask a qualified professional about safe transfers, exercises or home modifications.</li></ul><div class="tips-warning"><strong>After a fall</strong><p>Do not rush to lift someone who may be injured. Check for serious pain, bleeding, confusion or difficulty breathing and seek urgent medical help when needed.</p></div></div></div></section>
+<section class="section section-soft"><div class="container final-cta-box"><div><span class="eyebrow">Need mobility support?</span><h2>Discuss rehabilitation or personal care with Jayden.</h2></div><a class="btn" href="care-pricing.php#request-quote">Request a Quotation</a></div></section>
+<?php require __DIR__ . '/includes/footer.php'; ?>

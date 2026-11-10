@@ -1,0 +1,10 @@
+<?php
+$currentPage = 'tips';
+$pageTitle = 'Hydration and Nutrition Tips';
+$pageDescription = 'Practical hydration and nutrition reminders for homecare, recovery and everyday wellbeing.';
+require __DIR__ . '/includes/header.php';
+?>
+<section class="page-hero"><div class="container narrow"><span class="eyebrow">Healthy Tips</span><h1>Hydration and nutrition support everyday strength.</h1><p>Regular fluids and nourishing meals can help people maintain energy and recover well, especially when illness or reduced appetite changes normal routines.</p></div></section>
+<section class="section"><div class="container tips-article"><img class="tips-article-image" src="assets/images/personal-care.webp?v=<?= e($assetVersion) ?>" alt="Caregiver supporting a client with daily routines" loading="eager" decoding="async"><div class="tips-article-copy"><h2>Helpful daily reminders</h2><ul class="clean-list"><li>Offer fluids regularly unless a clinician has advised a fluid restriction.</li><li>Keep a clean bottle or cup within easy reach and make drinking part of the daily routine.</li><li>Choose balanced meals with protein, vegetables, fruit and suitable sources of energy.</li><li>Ask about food preferences, swallowing difficulties, allergies and prescribed diets.</li><li>Watch for reduced appetite, repeated vomiting, difficulty swallowing or signs of dehydration.</li><li>Record concerns and share them with the person's family or healthcare professional.</li></ul><div class="tips-warning"><strong>Get medical advice promptly</strong><p>Seek professional guidance when someone cannot keep fluids down, becomes unusually drowsy or confused, or has a sudden change in eating or drinking.</p></div></div></div></section>
+<section class="section section-soft"><div class="container final-cta-box"><div><span class="eyebrow">Need support at home?</span><h2>Ask Jayden about daily care assistance.</h2></div><a class="btn" href="care-pricing.php#request-quote">Request a Quotation</a></div></section>
+<?php require __DIR__ . '/includes/footer.php'; ?>

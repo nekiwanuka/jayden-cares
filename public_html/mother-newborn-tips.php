@@ -1,0 +1,10 @@
+<?php
+$currentPage = 'tips';
+$pageTitle = 'Mother and Newborn Wellbeing Tips';
+$pageDescription = 'Gentle post-delivery wellbeing reminders for mothers, newborns and families.';
+require __DIR__ . '/includes/header.php';
+?>
+<section class="page-hero"><div class="container narrow"><span class="eyebrow">Healthy Tips</span><h1>Gentle support for mothers and newborns.</h1><p>The early days after delivery can be joyful and demanding. Rest, practical help and timely professional advice can support the whole family.</p></div></section>
+<section class="section"><div class="container tips-article"><img class="tips-article-image" src="assets/images/mother-newborn.webp?v=<?= e($assetVersion) ?>" alt="Mother and newborn receiving care support" loading="eager" decoding="async"><div class="tips-article-copy"><h2>Small routines that can help</h2><ul class="clean-list"><li>Make space for the mother to rest, eat nourishing food and drink fluids regularly.</li><li>Accept practical help with meals, laundry, household tasks and safe newborn routines.</li><li>Follow the midwife or clinician's guidance for feeding, cord care, medicines and follow-up visits.</li><li>Keep the newborn warm, clean and safely positioned according to professional advice.</li><li>Ask for support when feeding is painful, difficult or the baby is not feeding as expected.</li><li>Take emotional changes seriously and speak with a healthcare professional when worry or low mood feels overwhelming.</li></ul><div class="tips-warning"><strong>Seek urgent medical care</strong><p>Get immediate advice for heavy bleeding, severe headache, breathing difficulty, chest pain, high fever, seizures, a very unwell mother or a newborn who is not breathing, feeding or responding normally.</p></div></div></div></section>
+<section class="section section-soft"><div class="container final-cta-box"><div><span class="eyebrow">Family support</span><h2>Let Jayden help make the postnatal period easier.</h2></div><a class="btn" href="care-pricing.php#request-quote">Request a Quotation</a></div></section>
+<?php require __DIR__ . '/includes/footer.php'; ?>
